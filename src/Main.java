@@ -16,7 +16,20 @@ public class Main {
         System.out.println(numbers[2] + ", " + numbers[1] + ", " + numbers[0]);
         System.out.println(numbersTwo[2] + ", " + numbersTwo[1] + ", " + numbersTwo[0]);
         System.out.println(numbersThree[5] + ", " + numbersThree[4] + ", " + numbersThree[3] + ", " + numbersThree[2] + ", " + numbersThree[1] + ", " + numbersThree[0]);
+        //четвёртое задание
+        if (numbers [0] % 2 == 1) {
+            numbers [0]++;
         }
+        if (numbers [1] % 2 == 1) {
+            numbers [1]++;
         }
+        if (numbers [2] % 2 == 1) {
+            numbers [2]++;
+        }
+        System.out.print(numbers [0] + ", " + numbers [1] + ", " + numbers [2]);
+            }
+        }
+
+
 
 
